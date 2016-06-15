@@ -4,8 +4,8 @@ var computer = '';
 function userChoice(choice) {
   computer = arr[Math.floor(Math.random() * 3)];
   result1 = document.getElementById("result1");
-  result1.innerHTML = "You chose " + result1 + ", computer chose " + computer + ".";
-  fortuneWheel(result1, computer);
+  result1.value = "You chose " + result1 + ", computer chose " + computer + ".";
+  fortuneWheel(choice, computer);
 }
 
 function fortuneWheel(choice, computer)  {
@@ -23,7 +23,7 @@ function fortuneWheel(choice, computer)  {
   }   
   else {
     result2 = document.getElementById("result2");
-    result2.innerHTML = 'Push'; 
+    result2.innerHTML = 'Tie'; 
   }   
 
  //  var history = parseInt(eval(result.innerHTML));
