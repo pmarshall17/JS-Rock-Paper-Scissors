@@ -12,7 +12,7 @@ body {
 	width:	800px ;
 }
 
-/*.border {
+.border {
     width: 60%;
     height: 150px;
     padding: 12px 20px;
@@ -23,4 +23,4 @@ body {
     resize: none;
     margin-left: 35%;
     text-align: center;
-}*/
+}

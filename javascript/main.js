@@ -3,29 +3,30 @@ var computer = '';
 
 function userChoice(choice) {
   computer = arr[Math.floor(Math.random() * 3)];
-  choice = document.getElementById("choice");
-  choice.innerHTML = "You chose " + choice + ", computer chose " + computer + ".";
-  fortuneWheel(choice, computer);
+  result1 = document.getElementById("result1");
+  result1.innerHTML = "You chose " + result1 + ", computer chose " + computer + ".";
+  fortuneWheel(result1, computer);
 }
 
-// function fortuneWheel(choice, computer)  {
-//   if(choice === 'rock' && computer === 'scissors' ||
-//      choice === 'paper' && computer === 'rock' ||
-//      choice === 'scissors' && computer === 'paper') {
-//       fate = document.getElementById("fate");
-//       fate.innerHTML = 'You win!';
-//      tallyUp('win');
-//   }   
-//   else if(choice === 'rock' && computer === 'paper' || 
-//           choice === 'paper' && computer === 'scissors' ||
-//           choice === 'scissors' && computer === 'rock') {
-//             fate = document.getElementById("fate");
-//             fate.innerHTML = 'You lose!';
-//     tallyUp('lose'); 
-//   }   
-//   else {
-//     fate = document.getElementById("fate");
-//     fate.innerHTML = 'Push'; 
-//     tallyUp('tie');
+function fortuneWheel(choice, computer)  {
+  if(choice === 'rock' && computer === 'scissors' ||
+     choice === 'paper' && computer === 'rock' ||
+     choice === 'scissors' && computer === 'paper') {
+      result2 = document.getElementById("result2");
+      result2.innerHTML = 'You win!';
+  }   
+  else if(choice === 'rock' && computer === 'paper' || 
+          choice === 'paper' && computer === 'scissors' ||
+          choice === 'scissors' && computer === 'rock') {
+            result2 = document.getElementById("result2");
+            result2.innerHTML = 'You lose!';
+  }   
+  else {
+    result2 = document.getElementById("result2");
+    result2.innerHTML = 'Push'; 
   }   
 }
+
+
+
+
