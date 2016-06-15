@@ -25,6 +25,13 @@ function fortuneWheel(choice, computer)  {
     result2 = document.getElementById("result2");
     result2.innerHTML = 'Push'; 
   }   
+
+ //  var history = parseInt(eval(result.innerHTML));
+	// var historyBox = document.getElementById('history');
+	
+	// historyBox.innerHTML += history;
+	// historyBox.innerHTML += "<br/>";
+
 }
 
 
