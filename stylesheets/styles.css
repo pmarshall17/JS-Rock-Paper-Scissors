@@ -4,9 +4,8 @@ body {
 
 .title {
 	text-align: center;
-	color:blue;
+	color:purple;
 }
-
 .android_pic{
 	height: 400px ;
 	width:	800px ;
@@ -21,6 +20,10 @@ body {
     border-radius: 4px;
     background-color: #b5b1bc;
     resize: none;
-    margin-left: 35%;
+    margin-left: 20%;
+    text-align: center;
+}
+
+.history_header {
     text-align: center;
 }
