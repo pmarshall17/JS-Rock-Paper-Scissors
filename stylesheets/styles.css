@@ -1,0 +1,26 @@
+body {
+	background-color: gray;
+}
+
+.title {
+	text-align: center;
+	color:blue;
+}
+
+.android_pic{
+	height: 400px ;
+	width:	800px ;
+}
+
+/*.border {
+    width: 60%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 7px solid #363A6E;
+    border-radius: 4px;
+    background-color: #b5b1bc;
+    resize: none;
+    margin-left: 35%;
+    text-align: center;
+}*/
